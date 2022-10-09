@@ -32,9 +32,9 @@ let playerMove = 'nieznany ruch';
 
 if (playerInput == '1') {
   playerMove = 'kamień';
-} else if (randomNumber == 2) {
+} else if (playerInput == 2) {
   playerMove = 'papier';
-} else if (randomNumber == 3) {
+} else if (playerInput == 3) {
   playerMove = 'nożyce';
 }
 
