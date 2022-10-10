@@ -47,14 +47,17 @@ h1 {
 }
 
 #play-rock {
+  text-shadow: 2px 2px black;
   opacity: 0.7;
   background: linear-gradient(rgba(0, 0, 72, 0.5), rgba(0, 72, 72, 0.5));
 }
 #play-paper {
+  text-shadow: 2px 2px black;
   opacity: 0.7;
   background: linear-gradient(rgba(0, 0, 72, 0.5), rgba(0, 72, 72, 0.5));
 }
 #play-scissors {
+  text-shadow: 2px 2px black;
   opacity: 0.7;
   background: linear-gradient(rgba(0, 0, 72, 0.5), rgba(0, 72, 72, 0.5));
 }
@@ -116,4 +119,7 @@ img {
   width: auto;
   opacity: 0.7;
   border-radius: 10%;
+  box-shadow: 3px 3px 4px 4px #ccc;
+  -webkit-box-shadow: 3px 3px 4px 4px #ccc;
+  -moz-box-shadow: 3px 3px 4px 4px #ccc;
 }
