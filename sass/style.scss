@@ -1,0 +1,119 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  color: #f1f2f6;
+  font-size: 30px;
+  background-image: linear-gradient(rgba(72, 0, 72, 0.5), rgba(72, 72, 72, 0.5)),
+    url('https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  text-align: center;
+  text-shadow: 2px 2px 2px 2px black;
+}
+.game {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.splash {
+  text-align: center;
+  margin-top: 160px;
+}
+h1 {
+  margin: 0;
+
+  padding: 0;
+  text-shadow: 2px 2px black;
+}
+.question {
+  padding-top: 0;
+  margin-top: 0;
+  text-shadow: 2px 2px black;
+}
+.page-subtitle {
+  margin-bottom: 30px;
+  padding: 0;
+}
+
+#buttons {
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+#play-rock {
+  opacity: 0.7;
+  background: linear-gradient(rgba(0, 0, 72, 0.5), rgba(0, 72, 72, 0.5));
+}
+#play-paper {
+  opacity: 0.7;
+  background: linear-gradient(rgba(0, 0, 72, 0.5), rgba(0, 72, 72, 0.5));
+}
+#play-scissors {
+  opacity: 0.7;
+  background: linear-gradient(rgba(0, 0, 72, 0.5), rgba(0, 72, 72, 0.5));
+}
+
+#play-paper:hover {
+  background-color: black;
+  opacity: 0.5;
+  transition: 0.5s;
+}
+
+#play-rock:hover {
+  background-color: black;
+  opacity: 0.5;
+  transition: 0.5s;
+}
+#play-scissors:hover {
+  background-color: black;
+  opacity: 0.5;
+  transition: 0.5s;
+}
+
+button {
+  font-size: 25px;
+  padding: 10px;
+  border-radius: 10%;
+  font-weight: bold;
+}
+
+button {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+  box-shadow: transparent;
+}
+
+button:active {
+  box-shadow: transparent;
+  transform: translateY(4px);
+  background-color: black;
+  opacity: 0.5;
+  transition: 0.2s;
+}
+#messages {
+  text-shadow: 2px 2px black;
+}
+.img-rules {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+img {
+  height: 300px;
+  width: auto;
+  opacity: 0.7;
+  border-radius: 10%;
+}
